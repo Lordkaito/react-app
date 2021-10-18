@@ -13,7 +13,7 @@ This is the first React Project to build with Microverse.
 - JavaScript
 ## Live Demo
 
-[Live Demo Link](https://zealous-jang-8bec9e.netlify.app/)
+[Live Demo Link](https://modest-bose-6f8a0a.netlify.app/)
 
 
 ## To get a local copy run the following steps:
