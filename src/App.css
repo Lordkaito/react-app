@@ -1,6 +1,7 @@
 .title {
   text-align: center;
 }
+
 .result {
   max-width: 50%;
   width: 100%;
@@ -32,6 +33,7 @@
   background-color: #d4d4d4;
   cursor: pointer;
 }
+
 .zero {
   grid-column: 1 / 3;
 }
