@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-// import calculate from '../logic/calculate';
 import operate from '../logic/operate';
 
 function Calculator() {
@@ -9,7 +8,6 @@ function Calculator() {
 
   const handleClick = (button) => {
     if (button === '=') {
-      // eslint-disable-next-line no-use-before-define
       setTotal(operate(total, next, operation));
       setNext(0);
       setOperation(null);
@@ -20,7 +18,6 @@ function Calculator() {
     } else if (button === '+/-') {
       setNext(next * -1);
     } else if (button === '+' || button === '-' || button === '*' || button === '/') {
-      // eslint-disable-next-line no-use-before-define
       setTotal(calculate(total, next, operation));
       setNext(0);
       setOperation(button);
@@ -33,7 +30,6 @@ function Calculator() {
     if (operation === null) {
       return next;
     }
-    // eslint-disable-next-line no-use-before-define
     return operate(total, next, operation);
   };
 
