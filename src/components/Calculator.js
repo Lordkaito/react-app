@@ -76,7 +76,7 @@ const Calculator = () => {
             <button className="gridButton number" onClick={() => handleClick(2)}>2</button>
             <button className="gridButton number" onClick={() => handleClick(3)}>3</button>
             <button className="gridButton add" onClick={() => handleClick('+')}>+</button>
-            <button className="gridButton number zero" onClick={() => handleClick('0')}>0</button>
+            <button className="gridButton number zero" onClick={() => handleClick(0)}>0</button>
             <button className="gridButton dot" onClick={() => handleClick('.')}>.</button>
             <button className="gridButton equals" onClick={() => handleClick('=')}>=</button>
           </div>
