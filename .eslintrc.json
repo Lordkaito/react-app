@@ -15,7 +15,8 @@
     "no-param-reassign": "off",
     "eol-last": "off",
     "no-unused-vars": "off",
-    "linebreak-style": "off"
+    "linebreak-style": "off",
+    "no-use-before-define": "off"
   },
   "ignorePatterns": [
     "dist/",
