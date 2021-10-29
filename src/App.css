@@ -1,3 +1,11 @@
+body {
+  border: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+}
+
 .title {
   text-align: center;
 }
@@ -52,4 +60,77 @@
 .add:hover,
 .equals:hover {
   background-color: #ffa110;
+}
+
+.navbar {
+  background-color: #ffa110;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  height: 3rem;
+  justify-content: flex-end;
+  gap: 2rem;
+}
+
+li {
+  list-style: none;
+  font-size: 1.2rem;
+}
+
+li a {
+  text-decoration: none;
+  color: #000;
+}
+
+li a:hover {
+  color: #d4d4d4;
+}
+
+.showcase,
+.quotes {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0 5rem;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer .container {
+  text-align: center;
+  width: 100%;
+}
+
+.calculator {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+
+.quote {
+  font-style: italic;
+  font-size: 1.4rem;
+}
+
+.quoteAuthor {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
