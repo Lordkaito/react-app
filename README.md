@@ -13,8 +13,8 @@ This is the first React Project to build with Microverse.
 - JavaScript
 ## Live Demo
 
-[Live Demo Link](https://modest-bose-6f8a0a.netlify.app/)
-
+[Netlify Demo Link](https://modest-bose-6f8a0a.netlify.app/)
+[Heroku Demo Link](https://magicians-react-app.herokuapp.com/)
 
 ## To get a local copy run the following steps:
 - Copy this link [this link](https://github.com/Lordkaito/react-app.git)
